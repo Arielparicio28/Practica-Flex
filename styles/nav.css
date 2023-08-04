@@ -1,0 +1,45 @@
+nav {
+    display:flex ;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+ul.navbar {
+    list-style: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+ul.navbar li {
+    margin: 2rem; /* Espacio entre cada elemento del menú */
+    display: flex;
+    align-items: center; /* Centrar los elementos verticalmente en el <li> */
+  
+  }
+  
+  /* Estilos para las imágenes dentro del <li> */
+  ul.navbar li img {
+    width: 18px; 
+    height: 18px;
+    margin-right: 3px; 
+  }
+  
+  /* Estilos para el segundo <img> para posicionarlo dentro del primero */
+  ul.navbar li img:last-child {
+    position: absolute; 
+  }
+
+  @media (max-width: 640px) {
+    nav {
+      position: relative;
+    }
+  }
+ 
+  @media (min-width: 960px) {
+    nav {
+     position: relative;
+    }
+  }
