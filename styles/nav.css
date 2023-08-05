@@ -1,22 +1,22 @@
 nav {
-    display:flex ;
+    display: block;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    background: #000;
 }
 
 ul.navbar {
     list-style: none; 
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 ul.navbar li {
-    margin: 2rem; /* Espacio entre cada elemento del menú */
+    margin: 1rem; /* Espacio entre cada elemento del menú */
     display: flex;
-    align-items: center; /* Centrar los elementos verticalmente en el <li> */
+    align-items: center;
   
   }
   
@@ -34,12 +34,15 @@ ul.navbar li {
 
   @media (max-width: 640px) {
     nav {
-      position: relative;
+      display: flex;
+
+
     }
+    ul.navbar li {
+      text-align: center;
+      align-items: center;
+       margin: 0.7rem;  /* Reduce el espacio entre elementos en dispositivos móviles */
+    }
+
   }
  
-  @media (min-width: 960px) {
-    nav {
-     position: relative;
-    }
-  }

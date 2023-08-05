@@ -7,7 +7,13 @@ Este proyecto tiene como objetivo el uso de Flexbox, una poderosa herramienta de
 
 1-index.html: Es el archivo HTML que contiene la estructura básica de la página web. En este archivo, he utilizado elementos HTML y clases CSS para definir la disposición de los elementos en la página mediante Flexbox.
 
-2-style.css: Es el archivo CSS que complementa al archivo HTML y contiene las reglas de estilo para los elementos de la página. Aquí he aplicado las propiedades de Flexbox para lograr el diseño deseado y asegurarte de que la página sea adaptable en diferentes tamaños de pantalla.
+2-style.css: Es el archivo CSS que complementa al archivo HTML y contiene las reglas de estilo para los elementos de la página. Aquí he aplicado las propiedades de reset de estilos y declare mis estilos globales,como bg-image,font,y color de texto.
+
+3-nav.css : Es el archivo que le da estilos a mi barra de navegación la cual esta echa responsive y se dio use de flex para lograr un mejor manejo de los elementos y hacer una mejor experiencia al usuario.
+
+4.main.css: Este es el archivo de estilos de mi contenedor principal,es decir aqui es donde tengo el desarrollo mayoritario de mi estilos css ya que se encuentran elementos que he trabajado a profundidad para lograr efecto responsive.
+
+5- footer.css: Es la pagina de estilos menos compleja que tengo solo es el estilo de mi pie de página.
 
 
 

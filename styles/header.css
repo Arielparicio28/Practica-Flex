@@ -1,12 +1,11 @@
 header{
-    background: #000;
     margin: 4rem;
     text-align: center;
 }
 
 header h1 {
-    text-align: center;
-    font-size: 42px;
+text-align: center;
+font-size: 42px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -15,7 +14,7 @@ letter-spacing: 12.6px;
 }
 
 header h5 {
-    text-align: center;
+ text-align: center;
 font-size: 16px;
 font-style: normal;
 font-weight: 600;
