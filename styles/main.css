@@ -1,21 +1,21 @@
 main {
   display: flex;
+  flex-direction: row;
   align-items: center;
   background-color: #000000;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   gap: 3rem;
-  margin: 6rem;
+  margin: 4rem;
 }
 
 /* Estilos para las tarjetas */
 div[class^="card"] {
   display: flex;
-  width: 293px;
-  height: 440px;
+  height: 440px; 
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   font-size: 27px;
   font-style: normal;
   font-weight: 800;
@@ -66,47 +66,66 @@ main h4 {
   letter-spacing: 3.24px;
 }
 
-a {
-  text-decoration: none;
-}
-a :hover {
-  cursor: pointer;
-  background-color: rgb(173, 142, 236);
-}
-
-.container{
-    position: relative;
-    bottom: 7rem;
+.container {
+  position: relative;
+  bottom: 7rem;
 }
 #moviendo {
- position: absolute;
+  position: absolute;
   left: 4rem;
 }
 
-.containerTwo{
-    position: relative;
-    bottom: 7rem;
+.containerTwo {
+  position: relative;
+  bottom: 7rem;
 }
 
 #moviendoTwo {
-    position: absolute;
-    left: 4rem;
+  position: absolute;
+  left: 4rem;
 }
 
-.containerThree{
-    position: relative;
-    bottom: 7rem;
+.containerThree {
+  position: relative;
+  bottom: 7rem;
 }
 
-#moviendoThree{
-    position: absolute;
-    left: 4rem;
+#moviendoThree {
+  position: absolute;
+  left: 4rem;
 }
 
-#moviendoFour{
-    position: absolute;
-    left: 5rem;
-    top:3rem;
+#moviendoFour {
+  position: absolute;
+  left: 5rem;
+  top: 3rem;
+}
+
+.containerLine {
+  position: relative;
+}
+
+#line {
+  position: absolute;
+  margin-top: -2rem;
+}
+
+.containerLineTwo {
+  position: relative;
+}
+
+#lineTwo {
+  position: absolute;
+  margin-top: -2rem;
+}
+
+.containerLineThree {
+  position: relative;
+}
+
+#lineThree {
+  position: absolute;
+  margin-top: -2rem;
 }
 
 /* Media query para alinear las tarjetas verticalmente en el modo móvil */
@@ -114,12 +133,5 @@ a :hover {
   main {
     flex-direction: column;
     align-items: center;
-  }
-}
-
-/* Media query para alinear las tarjetas horizontalmente en el modo de escritorio */
-@media (min-width: 960px) {
-  main {
-    flex-direction: row;
   }
 }
